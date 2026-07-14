@@ -1,4 +1,4 @@
-package model.tokens;
+package model.ast;
 
 public abstract class Expr {
 }
