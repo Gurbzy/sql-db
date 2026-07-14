@@ -4,6 +4,7 @@ import model.tokens.Token;
 
 import java.util.List;
 
-interface TokenizerService {
+public interface TokenizerService {
     List<Token> tokenize(StringBuffer input);
+    List<Token> tokenize(String input);
 }
