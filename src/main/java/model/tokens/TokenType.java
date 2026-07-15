@@ -1,0 +1,19 @@
+package model.tokens;
+
+public enum TokenType {
+    TOKEN_INVALID,
+    TOKEN_INDENTIFIER,
+
+    TOKEN_SELECT,
+    TOKEN_FROM,
+    TOKEN_WHERE,
+    TOKEN_CREATE,
+    TOKEN_TABLE,
+
+    TOKEN_OPERATOR,
+    TOKEN_LPAREN,
+    TOKEN_RPAREN,
+    TOKEN_COMMA,
+    TOKEN_STRING,
+    TOKEN_SEMICOLON,
+};
