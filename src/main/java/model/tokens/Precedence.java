@@ -11,6 +11,7 @@ public enum Precedence {
     OPERATOR_GT(4),
     OPERATOR_GE(4),
     OPERATOR_NE(4),
+    OPERATOR_IS(4),
     OPERATOR_ADD(5),
     OPERATOR_SUB(5),
     OPERATOR_MULT(6),
